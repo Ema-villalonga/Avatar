@@ -1,0 +1,48 @@
+<!-- Realizar el maquetado de una página tipo linktree en base al boceto proporcionado
+(ejercicio-linktree.jpg).
+Se debe poner en práctica lo aprendido de CSS y las propiedades de flexbox.
+Para los íconos de las redes sociales utilizar la siguiente fuente de íconos:
+https://icons8.com/line-awesome -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.3/font/bootstrap-icons.min.css" 
+    integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="icon/png" href="../Clase6/img/icons8-web-50.png">
+</head>
+<body>
+    <!--IMAGEN AVATAR-->
+    <section class="img">
+        <img src="../Clase6/img/avatar-ej1.png" alt="Avatar">
+    </section>
+    <!--NOMBRE DE USUARIO-->
+    <section class="name">
+            <h2>Emanuel Villalonga</h2>
+    </section>
+    <!--CAMPO DE ENLACE-->
+    <section class="input">
+        <ul>
+            <li><i class="bi bi-check2-circle icon"></i><input  type="text" value="Link 1" ></li>
+            <li><i class="bi bi-check2-circle icon"></i><input  type="text" value="Link 2"></li>
+            <li><i class="bi bi-check2-circle icon"></i><input  type="text" value="Link 3"></li>
+            <li><i class="bi bi-check2-circle icon"></i><input  type="text" value="Link 4"></li>
+            <li><i class="bi bi-check2-circle icon"></i><input  type="text" value="Link 5"></li>
+        </ul>
+    </section>
+    <!--REDES SOCIALES-->
+    <footer>
+        <ul class="socialIcons">
+            <li><i class="bi bi-twitter" ></i></li>
+            <li><i class="bi bi-facebook" ></i></li>
+            <li><i class="bi bi-linkedin" ></i></li>
+        </ul>
+        
+    </footer>
+</body>
+</html>
